@@ -13,7 +13,7 @@ echo "(to use this script on Zorin 16 add the -6 flag or -7 to manually override
 sleep 10
 
 # Prompt user
-echo "Please Enter your sudo password!"
+echo "Please enter your password!"
 
 # Sudo echo so it always propts here
 sudo echo > /dev/null
@@ -43,21 +43,17 @@ if [ "$sixteen" = "true" ]; then
             # Copy zorin16.list mod
             sudo cp -f ./zorin16.list /etc/apt/sources.list.d/zorin.list
             # Add the required apt-key to be safe
-            curl -sS https://packages.zorinos.com/zorin_os_key.asc | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/zorin.gpg
-            # sudo gpg --keyserver key server.ubuntu.com --recv-key  5FD7496A07D323BC
-            # sudo gpg -a --export 5FD7496A07D323BC | sudo apt-key add -
+            sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 5FD7496A07D323BC
         else
             # Copy zorin17.list mod
             sudo cp -f ./zorin17.list /etc/apt/sources.list.d/zorin.list
             # Add the required apt-key to be safe
-            curl -sS https://packages.zorinos.com/zorin_os_key.asc | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/zorin.gpg
-            # sudo gpg --keyserver key server.ubuntu.com --recv-key  5FD7496A07D323BC
-            # sudo gpg -a --export 5FD7496A07D323BC | sudo apt-key add -
+            sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 5FD7496A07D323BC
 fi
 
 sleep 2
 
-echo "adding premium flags..."
+echo "Adding premium flags..."
 
 # introduces premium user agent
 sudo cp -f ./99zorin-os-premium-user-agent /etc/apt/apt.conf.d/
