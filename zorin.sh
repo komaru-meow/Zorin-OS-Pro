@@ -33,7 +33,7 @@ done
 echo "Preparing to install dependencies..."
 
 # Install ca-certificates
-sudo apt install ca-certificates aptitude
+sudo apt install -y ca-certificates
 
 sleep 2
 
@@ -67,10 +67,10 @@ sudo aptitude update
 
 if [ "$sixteen" = "true" ]; then   
             # install 16 pro content
-            sudo apt install zorin-os-pro zorin-os-pro-creative-suite zorin-os-pro-productivity-apps zorin-os-pro-wallpapers zorin-os-pro-wallpapers-16
+            sudo apt install -y zorin-os-pro zorin-os-pro-creative-suite zorin-os-pro-productivity-apps zorin-os-pro-wallpapers zorin-os-pro-wallpapers-16
         else
             # install 17 pro content
-            sudo apt install zorin-os-pro zorin-os-pro-creative-suite zorin-os-pro-productivity-apps zorin-os-pro-wallpapers zorin-os-pro-wallpapers-17
+            sudo apt install -y zorin-os-pro zorin-os-pro-creative-suite zorin-os-pro-productivity-apps zorin-os-pro-wallpapers zorin-os-pro-wallpapers-17
 fi
 
 echo "All done!"
