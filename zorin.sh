@@ -9,7 +9,7 @@ echo "╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═�
 echo "|ZORIN-OS-PRO| |Script v3.0.0| |Overhauled By NamelessNanasi/CortezJEL| |original by PEAKYCOMMAND| |Fixed by winbo-yml-exe/user0"
 echo ""
 echo "(Please note this version ONLY works on Zorin 17 and 16)"
-echo "(to use this script on Zorin 16 add the -6 flag or -7 to manually override to zorin 17 although that should be redundant)"
+echo "(to use this script on Zorin 16 add the -6 flag or -7 to manually override to Zorin 17 although that should be redundant)"
 sleep 10
 
 # Prompt user
