@@ -63,7 +63,7 @@ sleep 2
 echo "Adding premium content..."
 
 # update packages
-sudo aptitude update
+sudo apt update
 
 if [ "$sixteen" = "true" ]; then   
             # install 16 pro content
