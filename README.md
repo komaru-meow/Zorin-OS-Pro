@@ -11,7 +11,7 @@ You will have access to all Zorin OS Pro wallpapers and layouts
 </p>
 
 Installation:
-Copy the command below and paste it into terminal, Restart your PC and you will be a Pro user of Zorin OS
+Copy the command below and paste it into terminal, restart your PC and you will be a Pro user of Zorin OS.
 
 ```bash
 git clone https://github.com/winbo-yml-exe/Zorin-OS-Pro && cd Zorin-OS-Pro && chmod +x zorin.sh && sudo ./zorin.sh
