@@ -1,5 +1,5 @@
 # Zorin-OS-Pro
-This script turns your Zorin OS CORE into Zorin OS PRO
+Converts any Zorin OS Core installation from Core to Pro for free.
 
 You will have access to all Zorin OS Pro wallpapers and layouts
 <p align="center">
@@ -11,7 +11,7 @@ You will have access to all Zorin OS Pro wallpapers and layouts
 </p>
 
 Installation:
-copy the command below, paste in your terminal, then put your password, wait for your PC to restart and you will already be a PRO user of Zorin OS
+Copy the command below and paste it into terminal, Restart your PC and you will be a Pro user of Zorin OS
 
 ```bash
 git clone https://github.com/winbo-yml-exe/Zorin-OS-Pro && cd Zorin-OS-Pro && chmod +x zorin.sh && sudo ./zorin.sh
