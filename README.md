@@ -19,4 +19,4 @@ git clone https://github.com/winbo-yml-exe/Zorin-OS-Pro && cd Zorin-OS-Pro && ch
 ```
 CREDITS: NamelessNanasi/CortezJEL
 
-FIXED BY: winbo-yml-exe/user0
+FIXED BY: komaru-meow/user0
